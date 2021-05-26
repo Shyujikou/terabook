@@ -331,7 +331,7 @@ var self=this;var 自分=self;
 this['持ち物']=this['コイン'];
 return this['持ち物']['持たれてる']=this['真'];
 }));
-return this['本体']['変身する'](((((root['imageディレクトリのパス']+"mammoth/drone2.png?")+(((255)).乱数())))));
+return this['本体']['変身する'](((((root['imageディレクトリのパス']+"mammoth/drone2.png")))));
 });
 this['ドローン']['はなす']=dtlbind(this,function(){
 var self=this;var 自分=self;
@@ -343,16 +343,16 @@ var self=this;var 自分=self;
 this['持ち物']['持たれてる']=this['偽'];
 return this['持ち物']=this['未定義'];
 }));
-return this['本体']['変身する']((((root['imageディレクトリのパス']+"mammoth/drone.png?")+(((255)).乱数()))));
+return this['本体']['変身する']((((root['imageディレクトリのパス']+"mammoth/drone.png"))));
 });
 this['ドローン']['表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['本体']=this['タートル']['作る']()['ペンなし']()['拡大する']((0.11))['拡大する']((root['ドローン拡大倍率']))['変身する']((((root['imageディレクトリのパス']+"mammoth/drone.png?")+(((255)).乱数()))));
+return this['本体']=this['タートル']['作る']()['ペンなし']()['拡大する']((0.11))['拡大する']((root['ドローン拡大倍率']))['変身する']((((root['imageディレクトリのパス']+"mammoth/drone.png"))));
 });
 return this['ドローン']['初期化']=dtlbind(this,function(){
 var self=this;var 自分=self;
 this['持ち物']=this['未定義'];
-return this['本体']['変身する']((((root['imageディレクトリのパス']+"mammoth/drone.png?")+(((255)).乱数()))));
+return this['本体']['変身する']((((root['imageディレクトリのパス']+"mammoth/drone.png"))));
 });
 }).checkerror().apply(root,[]);
 //# sourceMappingURL=Drone.js.map

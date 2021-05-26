@@ -1,6 +1,6 @@
 (function(){this['命令一覧背景表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['命令一覧背景']=this['画像']['作る']((((root['画像パス']+"mammoth/button/buttonback3.png?")+(((255)).乱数()))));
+this['命令一覧背景']=this['画像']['作る']((((root['画像パス']+"mammoth/button/buttonback3.png"))));
 this['命令一覧背景']['位置']((root['命令一覧背景の左上x']),(root['命令一覧背景の左上y']));
 this['命令一覧背景']['大きさ']((root['命令一覧背景の幅']),(root['命令一覧背景の高さ']));
 return this['命令一覧背景']['zIndex']((1));
@@ -23,7 +23,7 @@ this['矢印リスト']=this['配列']['作る']();
 dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
-要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/method.png?")+(((255)).乱数()))));
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/method.png"))));
 要素['zIndex']((50));
 要素['大きさ']((root['画像w']),(root['画像h']));
 要素['位置'](((root['一行目初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['一行目y']));
@@ -32,7 +32,7 @@ return this['命令リスト']['書く']((要素));
 dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
-要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png?")+(((255)).乱数()))));
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png"))));
 要素['zIndex']((50));
 要素['大きさ']((root['矢印画像w']),(root['矢印画像h']));
 要素['位置'](((root['一行目矢印初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['一行目矢印y']));
@@ -41,7 +41,7 @@ return this['矢印リスト']['書く']((要素));
 dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
-要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/method.png?")+(((255)).乱数()))));
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/method.png"))));
 要素['zIndex']((50));
 要素['大きさ']((root['画像w']),(root['画像h']));
 要素['位置'](((root['二行目初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['二行目y']));
@@ -50,7 +50,7 @@ return this['命令リスト']['書く']((要素));
 dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
-要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png?")+(((255)).乱数()))));
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png"))));
 要素['zIndex']((50));
 要素['大きさ']((root['矢印画像w']),(root['矢印画像h']));
 要素['位置'](((root['二行目矢印初期x']+((((n-(2)))*this['画像達の間隔'])))),(root['二行目矢印y']));
@@ -59,7 +59,7 @@ return this['矢印リスト']['書く']((要素));
 dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
-要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/method.png?")+(((255)).乱数()))));
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/method.png"))));
 要素['zIndex']((50));
 要素['大きさ']((root['画像w']),(root['画像h']));
 要素['位置'](((root['三行目初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['三行目y']));
@@ -68,7 +68,7 @@ return this['命令リスト']['書く']((要素));
 return dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
-要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png?")+(((255)).乱数()))));
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png"))));
 要素['zIndex']((50));
 要素['大きさ']((root['矢印画像w']),(root['矢印画像h']));
 要素['位置'](((root['三行目矢印初期x']+((((n-(2)))*this['画像達の間隔'])))),(root['三行目矢印y']));
@@ -89,37 +89,37 @@ var self=this;var 自分=self;
 return (命令==="←");
 })['なら']()['そうでなければ'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/left.png?")+(((255)).乱数())));
+return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/left.png")));
 }))['なら'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return (命令==="→");
 }))['そうでなければ'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/right.png?")+(((255)).乱数())));
+return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/right.png")));
 }))['なら'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return (命令==="↑");
 }))['そうでなければ'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/up.png?")+(((255)).乱数())));
+return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/up.png")));
 }))['なら'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return (命令==="↓");
 }))['そうでなければ'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/down.png?")+(((255)).乱数())));
+return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/down.png")));
 }))['なら'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return (命令==="◯");
 }))['そうでなければ'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/button6-icon.png?")+(((255)).乱数())));
+return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/button6-icon.png")));
 }))['なら'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return (命令==="×");
 }))['実行'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/button5-icon.png?")+(((255)).乱数())));
+return this['filename']=(((root['imageディレクトリのパス']+"/mammoth/button/button5-icon.png")));
 }));
 this['xsize']=((root['画像w']*(0.8)));
 this['ysize']=((root['画像h']*(0.8)));
@@ -131,7 +131,7 @@ var self=this;var 自分=self;
 return (this['命令数']<(24));
 })['なら']()['実行'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['矢印リスト']['読む']((this['命令数']))['change']((((root['画像パス']+"mammoth/method/arrow-hover.png?")+(((255)).乱数()))));
+return this['矢印リスト']['読む']((this['命令数']))['change']((((root['画像パス']+"mammoth/method/arrow-hover.png"))));
 }));
 return root['命令数']['書く']((this['命令数']));
 }));
@@ -151,7 +151,7 @@ var self=this;var 自分=self;
 return (this['命令数']<(24));
 })['なら']()['実行'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['矢印リスト']['読む']((this['命令数']))['change']((((root['画像パス']+"mammoth/method/arrow.png?")+(((255)).乱数()))));
+return this['矢印リスト']['読む']((this['命令数']))['change']((((root['画像パス']+"mammoth/method/arrow.png"))));
 }));
 this['命令数']=(this['命令数']-(1));
 return root['命令数']['書く']((this['命令数']));

@@ -1,6 +1,6 @@
 (function(){this['じっこうボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['じっこうボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button1.png?")+(((255)).乱数()))));
+this['じっこうボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button1.png"))));
 this['じっこうボタン']['zIndex']((50));
 this['じっこうボタン']['大きさ']((root['ボタン類の幅']));
 this['じっこうボタン']['位置']((root['じっこうボタンの左上x']),(root['じっこうボタンの左上y']));
@@ -40,11 +40,11 @@ return this['ひとつもどるボタン']['動作']=this['ひとつもどるボ
 }));
 }));
 this['じっこうボタン']['_動作']=this['じっこうボタン']['動作'];
-return this['じっこうボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button1-hover.png?")+(((255)).乱数()))));
+return this['じっこうボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button1-hover.png"))));
 });
 this['やりなおしボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['やりなおしボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button2.png?")+(((255)).乱数()))));
+this['やりなおしボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button2.png"))));
 this['やりなおしボタン']['zIndex']((50));
 this['やりなおしボタン']['大きさ']((root['ボタン類の幅']))['動作設定'](dtlbind(this,function(){
 var self=this;var 自分=self;
@@ -56,11 +56,11 @@ return this['コイン']['初期化']();
 }));
 this['やりなおしボタン']['_動作']=this['やりなおしボタン']['動作'];
 this['やりなおしボタン']['位置']((root['やりなおしボタンの左上x']),(root['やりなおしボタンの左上y']));
-return this['やりなおしボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button2-hover.png?")+(((255)).乱数()))));
+return this['やりなおしボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button2-hover.png"))));
 });
 return this['ひとつもどるボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['ひとつもどるボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button3.png?")+(((255)).乱数()))))['動作設定'](dtlbind(this,function(){
+this['ひとつもどるボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button3.png"))))['動作設定'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['命令部']['削除']();
 }));

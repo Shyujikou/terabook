@@ -1883,7 +1883,8 @@ var requirejs, require, define;
                         Math.floor(Math.random()*9)+
                         Math.floor(Math.random()*5)*16+49);
                 }
-                cvurl += (cvurl.indexOf("?")<0?"?":"&")+requirejs.__urlPostfix;
+                // Disable postfix!!!!! -- by Ziheng Zhou
+                // cvurl += (cvurl.indexOf("?")<0?"?":"&")+requirejs.__urlPostfix;
             }
             node.src=cvurl;
 

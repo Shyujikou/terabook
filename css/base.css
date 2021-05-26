@@ -362,8 +362,8 @@ body > #container {
     list-style: none;
     display: inline-block;
     display: -moz-inline-box;
-    /display: inline;
-    /zoom: 1;
+    /*display: inline; */
+    /*zoom: 1; */
     padding: 0px 20px 0px 20px;
 }
 
@@ -534,10 +534,6 @@ th {
     vertical-align: top;
     padding: 7px 20px 7px 50px;
     white-space: nowrap;
-}
-
-.dl_flort dt{
-
 }
 
 .dl_flort dd{

@@ -6,7 +6,7 @@ return this['ピクセル']['initialize']=dtlbind(this,function(){
 var self=this;var 自分=self;
 this['幅']=root['ピクセルの幅'];
 this['本体']=this['画像']['作る']();
-this['本体']['変更']((((root['画像パス']+"panda/white.png?")+(((255)).乱数()))))['大きさ']((root['ピクセルの幅']),(root['ピクセルの高さ']));
+this['本体']['変更']((((root['画像パス']+"panda/white.png"))))['大きさ']((root['ピクセルの幅']),(root['ピクセルの高さ']));
 this['本体']['親']=this;
 this['本体']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
@@ -19,10 +19,10 @@ var self=this;var 自分=self;
 return (白黒==="白");
 })['なら']()['そうでなければ'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['変更']((((root['画像パス']+"panda/white.png?")+(((255)).乱数()))));
+return this['変更']((((root['画像パス']+"panda/white.png"))));
 }))['実行'](dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['変更']((((((root['画像パス']+"panda/")+(this['ピクセルの色']))+".png?")+(((255)).乱数()))));
+return this['変更']((((((root['画像パス']+"panda/")+(this['ピクセルの色']))+".png"))));
 }));
 });
 this['本体']['反映'](("白"));

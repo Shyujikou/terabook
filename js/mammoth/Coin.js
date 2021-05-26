@@ -56,7 +56,7 @@ return this['本体']['歩いて当たる']((this['x']),(this['y']),(0.8));
 });
 this['コイン']['表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['本体']=this['タートル']['作る']()['変身する']((((root['imageディレクトリのパス']+"mammoth/coin.png?")+(((255)).乱数()))))['ペンなし']()['拡大する']((root['コイン拡大倍率']));
+this['本体']=this['タートル']['作る']()['変身する']((((root['imageディレクトリのパス']+"mammoth/coin.png"))))['ペンなし']()['拡大する']((root['コイン拡大倍率']));
 this['本体']['実体']=this['コイン'];
 return this['コイン']['初期化']();
 });

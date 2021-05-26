@@ -88,10 +88,10 @@ this['イラストトグルボタン']['大きさ']((root['イラストトグル
 this['GOボタンの左上x']=root['GOボタンの左上x'];
 this['GOボタンの左上y']=root['GOボタンの左上y'];
 this['GOボタンの幅']=root['GOボタンの幅'];
-this['GOボタン']['変更']((((root['画像パス']+"herring/button1.png?")+(((255)).乱数()))));
+this['GOボタン']['変更']((((root['画像パス']+"herring/button1.png"))));
 this['GOボタン']['大きさ']((this['GOボタンの幅']));
 this['GOボタン']['位置']((this['GOボタンの左上x']),(this['GOボタンの左上y']));
-this['GOボタン']['ホバー画像']((((root['画像パス']+"herring/button1-hover.png?")+(((255)).乱数()))));
+this['GOボタン']['ホバー画像']((((root['画像パス']+"herring/button1-hover.png"))));
 this['GOボタン']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
 this['合計']=(0);
@@ -111,7 +111,7 @@ this['二進ではの幅']=root['二進では画像の幅'];
 this['二進では画像']['位置']((this['二進ではx']),(this['二進ではy']));
 this['二進では画像']['大きさ']((this['二進ではの幅']));
 this['二進では画像']['zIndex'](-(1));
-this['二進では画像']['変更']((((root['画像パス']+"herring/nisin2_back.png?")+(((255)).乱数()))));
+this['二進では画像']['変更']((((root['画像パス']+"herring/nisin2_back.png"))));
 this['十進ラベルx']=root['十進ラベルの左上x'];
 this['十進ラベルy']=root['十進ラベルの左上y'];
 this['十進ラベル文字色']=root['十進ラベルの文字色'];

@@ -4,9 +4,9 @@ this['カード']['高さ']=(162);
 this['カード']['initialize']=dtlbind(this,function(数字){
 var self=this;var 自分=self;
 this['辞書']=this['辞書']['作る']();
-this['辞書']['書く']("表有",((((root['imageディレクトリのパス']+(("herring/"+数字)))+".png?")+(((255)).乱数()))));
-this['辞書']['書く']("裏",(((root['imageディレクトリのパス']+"herring/0.png?")+(((255)).乱数()))));
-this['辞書']['書く']("表無",(((root['imageディレクトリのパス']+"herring/none.png?")+(((255)).乱数()))));
+this['辞書']['書く']("表有",((((root['imageディレクトリのパス']+(("herring/"+数字)))+".png"))));
+this['辞書']['書く']("裏",(((root['imageディレクトリのパス']+"herring/0.png"))));
+this['辞書']['書く']("表無",(((root['imageディレクトリのパス']+"herring/none.png"))));
 this['裏表']="表";
 this['表有無']="表有";
 this['値']=数字;

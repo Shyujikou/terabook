@@ -52,23 +52,23 @@ this['x']=root['色ボタンの開始位置x'];
 this['y']=root['色ボタンの開始位置y'];
 this['幅']=root['色ボタンの幅'];
 this['高さ']=root['色ボタンの高さ'];
-this['黒ボタン']['変更']((((root['画像パス']+"panda/black.png?")+(((255)).乱数()))));
-this['赤ボタン']['変更']((((root['画像パス']+"panda/red.png?")+(((255)).乱数()))));
-this['緑ボタン']['変更']((((root['画像パス']+"panda/green.png?")+(((255)).乱数()))));
-this['黄色ボタン']['変更']((((root['画像パス']+"panda/orange.png?")+(((255)).乱数()))));
-this['青ボタン']['変更']((((root['画像パス']+"panda/blue.png?")+(((255)).乱数()))));
-this['ピンクボタン']['変更']((((root['画像パス']+"panda/purple.png?")+(((255)).乱数()))));
+this['黒ボタン']['変更']((((root['画像パス']+"panda/black.png"))));
+this['赤ボタン']['変更']((((root['画像パス']+"panda/red.png"))));
+this['緑ボタン']['変更']((((root['画像パス']+"panda/green.png"))));
+this['黄色ボタン']['変更']((((root['画像パス']+"panda/orange.png"))));
+this['青ボタン']['変更']((((root['画像パス']+"panda/blue.png"))));
+this['ピンクボタン']['変更']((((root['画像パス']+"panda/purple.png"))));
 return this['配列']['作る']((this['黒ボタン']),(this['赤ボタン']),(this['緑ボタン']),(this['黄色ボタン']),(this['青ボタン']),(this['ピンクボタン']))['それぞれ実行'](dtlbind(this,function(要素){
 var self=this;var 自分=self;
 要素['位置']((this['x']),(this['y']))['大きさ']((this['幅']),(this['高さ']));
 this['x']=((this['x']+(this['幅']))+(root['色ボタン同士の間隔']));
 要素['枠つき']=dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['変更']((((((root['画像パス']+"panda/")+(this['色名']))+"-s.png?")+(((255)).乱数()))));
+return this['変更']((((((root['画像パス']+"panda/")+(this['色名']))+"-s.png"))));
 });
 return 要素['枠なし']=dtlbind(this,function(){
 var self=this;var 自分=self;
-return this['変更']((((((root['画像パス']+"panda/")+(this['色名']))+".png?")+(((255)).乱数()))));
+return this['変更']((((((root['画像パス']+"panda/")+(this['色名']))+".png"))));
 });
 }));
 });

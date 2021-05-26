@@ -66,7 +66,7 @@ return this;
 });
 this['フルーツ']['表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['本体']=this['タートル']['作る']()['変身する']((((((root['imageディレクトリのパス']+"mammoth/meiro/")+(this['ファイル名']))+"?")+(((255)).乱数()))))['ペンなし']()['拡大する']((root['フルーツ拡大倍率']));
+this['本体']=this['タートル']['作る']()['変身する']((((((root['imageディレクトリのパス']+"mammoth/meiro/")+(this['ファイル名']))))))['ペンなし']()['拡大する']((root['フルーツ拡大倍率']));
 this['本体']['実体']=this;
 return this;
 });

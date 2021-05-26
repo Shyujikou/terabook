@@ -27,7 +27,7 @@ var self=this;var 自分=self;
 return });
 return this['マップ']['確定']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['背景']=this['画像']['作る']((((root['画像パス']+"mammoth/map-back.png?")+(((255)).乱数()))));
+this['背景']=this['画像']['作る']((((root['画像パス']+"mammoth/map-back.png"))));
 this['背景']['位置']((root['マップの左上座標x']),(root['マップの左上座標y']));
 this['背景']['大きさ']((root['マップの幅']),(root['マップの高さ']));
 this['背景']['zIndex'](-(1));

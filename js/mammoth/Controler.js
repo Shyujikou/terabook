@@ -4,73 +4,73 @@ this['x']=root['コントローラ1背景の左上x'];
 this['y']=root['コントローラ1背景の左上y'];
 this['w']=root['コントローラ1背景の幅'];
 this['h']=root['コントローラ1背景h'];
-return this['画像']['作る']((((root['画像パス']+"mammoth/button/buttonback2.png?")+(((255)).乱数()))))['位置']((this['x']),(this['y']))['大きさ']((this['w']),(this['h']));
+return this['画像']['作る']((((root['画像パス']+"mammoth/button/buttonback2.png"))))['位置']((this['x']),(this['y']))['大きさ']((this['w']),(this['h']));
 });
 this['左ボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['左ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/left.png?")+(((255)).乱数()))));
+this['左ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/left.png"))));
 this['左ボタン']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['命令部']['追加']("←");
 });
 this['左ボタン']['大きさ']((root['ボタンの画像幅']));
 this['左ボタン']['位置']((root['左ボタンの左上x']),(root['左ボタンの左上y']));
-return this['左ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/left-hover.png?")+(((255)).乱数()))));
+return this['左ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/left-hover.png"))));
 });
 this['右ボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['右ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/right.png?")+(((255)).乱数()))));
+this['右ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/right.png"))));
 this['右ボタン']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['命令部']['追加']("→");
 });
 this['右ボタン']['大きさ']((root['ボタンの画像幅']));
 this['右ボタン']['位置']((root['右ボタンの左上x']),(root['右ボタンの左上y']));
-return this['右ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/right-hover.png?")+(((255)).乱数()))));
+return this['右ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/right-hover.png"))));
 });
 this['上ボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['上ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/up.png?")+(((255)).乱数()))));
+this['上ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/up.png"))));
 this['上ボタン']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['命令部']['追加']("↑");
 });
 this['上ボタン']['大きさ']((root['ボタンの画像幅']));
 this['上ボタン']['位置']((root['上ボタンの左上x']),(root['上ボタンの左上y']));
-return this['上ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/up-hover.png?")+(((255)).乱数()))));
+return this['上ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/up-hover.png"))));
 });
 this['下ボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['下ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/down.png?")+(((255)).乱数()))));
+this['下ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/down.png"))));
 this['下ボタン']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['命令部']['追加']("↓");
 });
 this['下ボタン']['大きさ']((root['ボタンの画像幅']));
 this['下ボタン']['位置']((root['下ボタンの左上x']),(root['下ボタンの左上y']));
-return this['下ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/down-hover.png?")+(((255)).乱数()))));
+return this['下ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/down-hover.png"))));
 });
 this['掴ボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['掴ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button6.png?")+(((255)).乱数()))));
+this['掴ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button6.png"))));
 this['掴ボタン']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['命令部']['追加']("◯");
 });
 this['掴ボタン']['大きさ']((root['ボタン2の画像幅']));
 this['掴ボタン']['位置']((root['掴ボタンの左上x']),(root['掴ボタンの左上y']));
-return this['掴ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button6-hover.png?")+(((255)).乱数()))));
+return this['掴ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button6-hover.png"))));
 });
 return this['離ボタン表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['離ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button5.png?")+(((255)).乱数()))));
+this['離ボタン']=this['画像']['作る']((((root['画像パス']+"mammoth/button/button5.png"))));
 this['離ボタン']['動作']=dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['命令部']['追加']("×");
 });
 this['離ボタン']['大きさ']((root['ボタン2の画像幅']));
 this['離ボタン']['位置']((root['離ボタンの左上x']),(root['離ボタンの左上y']));
-return this['離ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button5-hover.png?")+(((255)).乱数()))));
+return this['離ボタン']['ホバー画像']((((root['画像パス']+"mammoth/button/button5-hover.png"))));
 });
 }).checkerror().apply(root,[]);
 //# sourceMappingURL=Controler.js.map

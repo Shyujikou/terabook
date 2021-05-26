@@ -278,7 +278,7 @@ return this;
 });
 this['ドローン']['表示']=dtlbind(this,function(){
 var self=this;var 自分=self;
-this['本体']=this['タートル']['作る']()['ペンなし']()['拡大する']((0.15))['拡大する']((root['ドローン拡大倍率']))['変身する']((((root['imageディレクトリのパス']+"mammoth/meiro/mammoth.png?")+(((255)).乱数()))));
+this['本体']=this['タートル']['作る']()['ペンなし']()['拡大する']((0.15))['拡大する']((root['ドローン拡大倍率']))['変身する']((((root['imageディレクトリのパス']+"mammoth/meiro/mammoth.png"))));
 return this;
 });
 this['ドローン']['初期位置設定']=dtlbind(this,function(場所){
@@ -290,7 +290,7 @@ return this;
 return this['ドローン']['_初期化']=dtlbind(this,function(){
 var self=this;var 自分=self;
 this['持ち物たち']['クリア']();
-this['本体']['変身する']((((root['imageディレクトリのパス']+"mammoth/meiro/mammoth.png?")+(((255)).乱数()))));
+this['本体']['変身する']((((root['imageディレクトリのパス']+"mammoth/meiro/mammoth.png"))));
 this['位置まですぐ']((this['初期位置']));
 return this;
 });
