@@ -11,6 +11,7 @@ return this['get']((0))['play']();
 root['失敗']=root['window']['$'](((((("<audio preload="+(this['dq']))+"auto")+(this['dq']))+"><audio>")));
 root['失敗']['append']((root['window']['$']((((((((((("<source src="+(this['dq']))+(root['soundディレクトリのパス']))+"faild.wav")+(this['dq']))+" type=")+(this['dq']))+"audio/wav")+(this['dq']))+">")))));
 root['失敗']['append']((root['window']['$']((((((((((("<source src="+(this['dq']))+(root['soundディレクトリのパス']))+"faild.mp3")+(this['dq']))+" type=")+(this['dq']))+"audio/mp3")+(this['dq']))+">")))));
+root['失敗']['prop']("volume",(0.4));
 root['失敗']['appendTo']((root['window']['$']("head")));
 root['失敗']['鳴らす']=dtlbind(this,function(){
 var self=this;var 自分=self;

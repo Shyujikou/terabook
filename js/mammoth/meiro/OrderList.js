@@ -28,7 +28,7 @@ var 要素;
 要素['大きさ']((root['画像w']),(root['画像h']));
 要素['位置'](((root['一行目初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['一行目y']));
 return this['命令リスト']['書く']((要素));
-})['繰り返す']((7));
+})['繰り返す']((8));
 dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
@@ -37,7 +37,7 @@ var 要素;
 要素['大きさ']((root['矢印画像w']),(root['矢印画像h']));
 要素['位置'](((root['一行目矢印初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['一行目矢印y']));
 return this['矢印リスト']['書く']((要素));
-})['繰り返す']((6));
+})['繰り返す']((7));
 dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
@@ -46,8 +46,8 @@ var 要素;
 要素['大きさ']((root['画像w']),(root['画像h']));
 要素['位置'](((root['二行目初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['二行目y']));
 return this['命令リスト']['書く']((要素));
-})['繰り返す']((7));
-return dtlbind(this,function(n){
+})['繰り返す']((8));
+dtlbind(this,function(n){
 var self=this;var 自分=self;
 var 要素;
 要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png?")+(((255)).乱数()))));
@@ -55,13 +55,31 @@ var 要素;
 要素['大きさ']((root['矢印画像w']),(root['矢印画像h']));
 要素['位置'](((root['二行目矢印初期x']+((((n-(2)))*this['画像達の間隔'])))),(root['二行目矢印y']));
 return this['矢印リスト']['書く']((要素));
-})['繰り返す']((7));
+})['繰り返す']((8));
+dtlbind(this,function(n){
+var self=this;var 自分=self;
+var 要素;
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/method.png?")+(((255)).乱数()))));
+要素['zIndex']((50));
+要素['大きさ']((root['画像w']),(root['画像h']));
+要素['位置'](((root['三行目初期x']+((((n-(1)))*root['画像達の間隔'])))),(root['三行目y']));
+return this['命令リスト']['書く']((要素));
+})['繰り返す']((8));
+return dtlbind(this,function(n){
+var self=this;var 自分=self;
+var 要素;
+要素=this['画像']['作る']((((root['画像パス']+"mammoth/method/arrow.png?")+(((255)).乱数()))));
+要素['zIndex']((50));
+要素['大きさ']((root['矢印画像w']),(root['矢印画像h']));
+要素['位置'](((root['三行目矢印初期x']+((((n-(2)))*this['画像達の間隔'])))),(root['三行目矢印y']));
+return this['矢印リスト']['書く']((要素));
+})['繰り返す']((8));
 });
 this['命令部']['追加']=dtlbind(this,function(命令){
 var self=this;var 自分=self;
 return dtlbind(this,function(){
 var self=this;var 自分=self;
-return (this['命令数']<(14));
+return (this['命令数']<(24));
 })['なら']()['実行'](dtlbind(this,function(){
 var self=this;var 自分=self;
 this['命令数']=(this['命令数']+(1));
@@ -108,13 +126,14 @@ this['ysize']=((root['画像h']*(0.8)));
 this['xpos']=((((this['命令リスト']['読む']((this['命令数']))['xpos?']())+((root['画像w']/(2)))))-(this['xsize']/(2)));
 this['ypos']=((((this['命令リスト']['読む']((this['命令数']))['ypos?']())-((root['画像h']/(2)))))+(this['ysize']/(2)));
 this['画像達']['書く']((this['画像']['作る']((this['filename']))['大きさ']((this['xsize']),(this['ysize']))['位置']((this['xpos']),(this['ypos']))['zIndex']((55))));
-return dtlbind(this,function(){
+dtlbind(this,function(){
 var self=this;var 自分=self;
-return (this['命令数']<(14));
+return (this['命令数']<(24));
 })['なら']()['実行'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['矢印リスト']['読む']((this['命令数']))['change']((((root['画像パス']+"mammoth/method/arrow-hover.png?")+(((255)).乱数()))));
 }));
+return root['命令数']['書く']((this['命令数']));
 }));
 });
 this['命令部']['削除']=dtlbind(this,function(){
@@ -129,15 +148,16 @@ this['画像達']['読む']((this['画像達']['要素数']()))['show']();
 this['画像達']['pop']();
 dtlbind(this,function(){
 var self=this;var 自分=self;
-return (this['命令数']<(14));
+return (this['命令数']<(24));
 })['なら']()['実行'](dtlbind(this,function(){
 var self=this;var 自分=self;
 return this['矢印リスト']['読む']((this['命令数']))['change']((((root['画像パス']+"mammoth/method/arrow.png?")+(((255)).乱数()))));
 }));
-return this['命令数']=(this['命令数']-(1));
+this['命令数']=(this['命令数']-(1));
+return root['命令数']['書く']((this['命令数']));
 }));
 });
-return this['命令部']['クリア']=dtlbind(this,function(){
+this['命令部']['クリア']=dtlbind(this,function(){
 var self=this;var 自分=self;
 (dtlbind(this,function(){
 var self=this;var 自分=self;
@@ -147,6 +167,35 @@ var self=this;var 自分=self;
 return this['削除']();
 })['bind']((this))));
 return this['命令数']=(0);
+});
+this['命令数']=this['作る']();
+this['命令数']['桁10']=this['ラベル']['作る']("");
+this['命令数']['桁1']=this['ラベル']['作る']("");
+this['命令数']['表示']=dtlbind(this,function(){
+var self=this;var 自分=self;
+this['桁10']['位置']((root['命令数ラベルの左上x']),(root['命令数ラベルの左上y']));
+this['桁1']['位置']((((root['命令数ラベルの左上x'])+((root['命令数ラベルの文字サイズ']/(2))))),(root['命令数ラベルの左上y']));
+this['桁10']['文字サイズ']((root['命令数ラベルの文字サイズ']));
+this['桁1']['文字サイズ']((root['命令数ラベルの文字サイズ']));
+this['書く']((0));
+return this;
+});
+return this['命令数']['書く']=dtlbind(this,function(数字){
+var self=this;var 自分=self;
+this['数字']=数字;
+this['桁10']['書く']("");
+this['桁1']['書く']("");
+dtlbind(this,function(){
+var self=this;var 自分=self;
+return (数字<(10));
+})['なら']()['そうでなければ'](dtlbind(this,function(){
+var self=this;var 自分=self;
+return this['桁1']['書く']((数字));
+}))['実行'](dtlbind(this,function(){
+var self=this;var 自分=self;
+return this['桁10']['書く']((数字));
+}));
+return this;
 });
 }).checkerror().apply(root,[]);
 //# sourceMappingURL=OrderList.js.map

@@ -13,7 +13,7 @@ this['Image']['initialize']=dtlbind(this,function(url){
 var self=this;var 自分=self;
 var t;
 t=this;
-this['element']=root['window']['$']("<img>")['attr']("src",(url))['css']("position","absolute")['css']("vertical-align","top")['css']("white-space","nowrap");
+this['element']=root['window']['$']("<img></img>")['attr']("src",(url))['css']("position","absolute")['css']("vertical-align","top")['css']("white-space","nowrap");
 return this['autoLayout']();
 });
 this['Image']['setAction']=dtlbind(this,function(a){
