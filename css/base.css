@@ -754,6 +754,7 @@ body#dtl{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     font-weight:900;
+    letter-spacing: 0.05em;
 }
 
 .default_message:after{
@@ -776,6 +777,7 @@ body#dtl{
     -moz-border-radius: 10px;   /* Firefox用 */
     color:#2e8b57;
     font-weight:900;
+    letter-spacing: 0.05em;
 }
 
 .success:after{
@@ -799,6 +801,7 @@ body#dtl{
     -moz-border-radius: 10px;   /* Firefox用 */
     color:#a52a2a;
     font-weight:900;
+    letter-spacing: 0.05em;
 }
 
 .fail:after{
@@ -822,7 +825,7 @@ body#dtl{
     -moz-border-radius: 10px;   /* Firefox用 */
     color:#4682b4;
     font-weight:900;
-    
+    letter-spacing: 0.05em;
     
 }
 
