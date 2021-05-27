@@ -9,18 +9,18 @@ function message(i){
         case reset:
             idName.removeClass(className);
             idName.addClass("default_message");
-            idName.text('作ったらチェックボタンをおしてね！');
+            idName.text('完成后点击“验证答案”按钮哦！');
             break;
         case success:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('おめでとう！せいかいです！');
+            idName.text('恭喜你，答对了！');
         break;
         
         case fail:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！もう一度チャレンジしてみよう！');
+            idName.text('真遗憾，再来挑战一次吧！');
         break;
         
         /*case 3:

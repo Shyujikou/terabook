@@ -8,47 +8,47 @@ function message(i){
         case reset:
             idName.removeClass(className);
             idName.addClass("default_message");
-            idName.text('メイレイボタンをおしたら「じっこう！」ボタンをおしてみよう！');
+            idName.text('先依次点击命令按钮，然后再点击“运行”按钮试试看吧！');
             break;
         case success:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('正解！ いちばん短いプログラムでのクリアだよ！');
+            idName.text('答对了！你用最短的程序完成了挑战哦！');
         break;
         case 2:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('おしい！ できるだけ短いプログラムでゴールしてみよう！');
+            idName.text('好可惜，试试看能不能用更短的程序完成挑战呢？');
         break;
         case 3:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！ まだゴールにたどりついていないよ！');
+            idName.text('真遗憾，你还没有到达终点哦！');
             break;
         case 4:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！ りんごをとっていないよ！');
+            idName.text('真遗憾，你没有拿到苹果哦！');
             break;
         case 5:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！ ぶどうをとっていないよ！');
+            idName.text('真遗憾，你没有拿到葡萄哦！');
             break;
         case 6:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！ りんごもぶどうもとっていないよ！');
+            idName.text('真遗憾，你没有拿到苹果和葡萄哦！');
             break;
         case 7:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！ りんごとぶどうを一つずつだけとってゴールしてね！');
+            idName.text('真遗憾，苹果和葡萄每样只能拿一个哦！');
             break;
         case 8:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！ すべてのフルーツをとってゴールしてね！');
+            idName.text('真遗憾，要拿到所有的水果才能通关哦！');
             break;
             
     }

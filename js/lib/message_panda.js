@@ -9,47 +9,47 @@ function message(i){
         case reset:
             idName.removeClass(className);
             idName.addClass("default_message");
-            idName.text('できたらチェックボタンを押してね！');
+            idName.text('完成后点击“验证答案”按钮哦！');
             break;
         case fail:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('残念！もう一度チャレンジしてみよう！');
+            idName.text('真遗憾，再来挑战一次吧！');
             break;
         case 3:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('せいかいです！こたえは「2」だよ！');
+            idName.text('答对了！正确答案是“2”哦！');
             break;
         case 4:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('せいかいです！こたえは「5」だよ！');
+            idName.text('答对了！正确答案是“5”哦！');
             break;
         case 5:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('せいかいです！こたえは「ハート」だよ！');
+            idName.text('答对了！正确答案是“爱心”哦！');
             break;
         case 6:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('せいかいです！こたえは「船」だよ！');
+            idName.text('答对了！正确答案是“船”哦！');
             break;
         case 7:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('せいかいです！こたえは「りんご」だよ！');
+            idName.text('答对了！正确答案是“苹果”哦！');
             break;
         case 8:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('せいかいです！こたえは「いちご」だよ！');
+            idName.text('答对了！正确答案是“草莓”哦！');
             break;
         case 9:
             idName.removeClass(className);
             idName.addClass("success");
-            idName.text('せいかいです！こたえは「おんぷ」だよ！');
+            idName.text('答对了！正确答案是“音符”哦！');
             break;
             
     }

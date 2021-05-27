@@ -32,7 +32,8 @@ body{line-height:1}
 	padding:0;
 }
 body{
-	font-family:'ヒラギノ丸ゴ Pro W4', museo-sans-rounded, "Helvetica Neue", Verdana, sans-serif,'メイリオ',Meiryo,'小塚ゴシック Pro','ＭＳ Ｐゴシック';
+	/* font-family:'ヒラギノ丸ゴ Pro W4', museo-sans-rounded, "Helvetica Neue", Verdana, sans-serif,'メイリオ',Meiryo,'小塚ゴシック Pro','ＭＳ Ｐゴシック'; */
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", sans-serif;
 	font-size:1em;
 	margin-bottom:0;
 	font-weight:300;
