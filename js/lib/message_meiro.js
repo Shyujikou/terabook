@@ -43,7 +43,7 @@ function message(i){
         case 7:
             idName.removeClass(className);
             idName.addClass("fail");
-            idName.text('真遗憾，苹果和葡萄每样只能拿一个哦！');
+            idName.text('真遗憾，只能拿一个苹果和一串葡萄哦！');
             break;
         case 8:
             idName.removeClass(className);
